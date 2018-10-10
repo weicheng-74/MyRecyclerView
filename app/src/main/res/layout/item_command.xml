@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/commandline"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_upload_edit"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/addmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Add" />
+</LinearLayout>

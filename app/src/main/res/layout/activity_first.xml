@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/tomain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="多布局editText" />
+
+            <Button
+                android:id="@+id/torecyclerviewedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="单次布局" />
+
+            <Button
+                android:id="@+id/editbut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="工具类检测" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

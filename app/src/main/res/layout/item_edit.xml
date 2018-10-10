@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/linearedit"
+    android:background="@drawable/bg_upload_edit"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/editmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="" />
+</LinearLayout>
